@@ -28,7 +28,7 @@ def main(conn):
     conn.close()
         
 if __name__ == "__main__":
-    # Create an instance of the elevator class (ID / bottom floor / top floor) 
+    # Create an instance of the elevator class (ID / bottom / top) 
     e = elevator(1, 0, 13)
     # Default hostname
     host = socket.gethostname()
