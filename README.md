@@ -1,5 +1,5 @@
 ## Elevator
-Practice of Python network programming
+Python network programming
 
 ####Usage:
 
