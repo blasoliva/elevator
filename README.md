@@ -1,5 +1,5 @@
-## Pyelevator
-A simple practice of Python network programming
+## Elevator
+Practice of Python network programming
 
 ####Usage:
 
