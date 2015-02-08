@@ -1,6 +1,4 @@
-## Elevator
-Python network programming
-
+## PyElevator
 ####Usage:
 
 Run the main script:
