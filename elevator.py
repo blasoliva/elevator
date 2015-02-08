@@ -64,7 +64,7 @@ class elevator:
         if direction is 1 and request not in self.queue_up:
             self.queue_up.append(request)
             self.queue_up.sort()
-            q = [ a for a in self.queue_up if a > self.position] + \
+            q = [ a for a in self.queue_up if a > self.position ] + \
                 [ b for b in self.queue_up if b < self.position ]
             self.queue_up = q
             
