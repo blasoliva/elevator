@@ -57,3 +57,8 @@ Great fun for nerdy people!
 
 ### TODO
 * Implement the ***queue*** function to scan the requests as a true elevator
+* Use multiple instances of ***elevator***
+* Get in and get out of the elevator
+* Call the elevator from outside
+* Move the elevator from inside
+* Send messages to other clients
