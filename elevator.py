@@ -64,15 +64,15 @@ class elevator:
         if direction is 1 and request not in self.queue_up:
             self.queue_up.append(request)
             self.queue_up.sort()
-            q = [ a for a in self.queue_up if a > self.current ] + \
-                [ b for b in self.queue_up if b < self.current ]
+            q = [ a for a in self.queue_up if a > self.position] + \
+                [ b for b in self.queue_up if b < self.position ]
             self.queue_up = q
             
         elif direction is 0 and request not in self.queue_down:
             self.queue_down.append(request)
             self.queue_down.sort(reverse=True)
-            q = [ a for a in self.queue_down if a < self.current ] + \
-                [ b for b in self.queue_down if b > self.current ]
+            q = [ a for a in self.queue_down if a < self.position ] + \
+                [ b for b in self.queue_down if b > self.position ]
             self.queue_down = q
 
     def catchclient(self, client):
