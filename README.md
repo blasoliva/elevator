@@ -1,2 +1,2 @@
 ## PyElevator
-A simple practice of Python networking programming
+A simple practice of Python network programming
